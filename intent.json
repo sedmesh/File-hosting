@@ -1,0 +1,712 @@
+{
+    "intents":[
+       {
+          "tag": "greeting",
+          "patterns": [
+             "Hi",
+             "How are you?",
+             "Is anyone there?",
+             "Hello",
+             "Good day",
+             "What's up",
+             "how are ya",
+             "heyy",
+             "whatsup",
+             "??? ??? ??"
+          ],
+          "responses": [
+             "Hello!",
+             "Good to see you again!",
+             "Hi there, how can I help?"
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "work_experience",
+          "patterns": [
+             "What's your background in software development?",
+             "Can you talk about your experience in coding?",
+             "Describe your journey in software development.",
+             "Walk me through your career in programming.",
+             "Share your work history in software engineering.",
+             "Discuss your professional experience in coding.",
+             "Tell me about your software development background.",
+             "Can you elaborate on your programming career?",
+             "Explain your work experience in coding.",
+             "Talk about your software development journey."
+          ],
+          "responses": ["In my pursuit of higher education, I initially aimed for a career in aviation, aspiring to become a pilot. However, financial constraints led me to explore various university options, including UWC, with the intention of finding opportunities for bursaries while I navigated towards aviation. As fate would have it, my trajectory shifted when I immersed myself in computer science during my first year. The realization that I not only excelled in the subject but developed a deep passion for it was a turning point. In the initial months of my first year, I delved into Python, followed by a progression to Java, focusing on object-oriented programming in the second semester. Moving into the second year, I further honed my skills in algorithms and data structures, exploring fundamental concepts that laid a solid foundation. The intrigue deepened as we delved into path algorithms, including Dijkstra's algorithm, coupled with an in-depth study of time and complexity. The journey took a fascinating turn in my third year, where I explored AI, computer networking, and operating systems. It was during this period that my fascination with Artificial Intelligence intensified, paving the way for a more profound connection with the subject. The climax of my academic journey was in the final year, second semester, where I engaged in a capstone project that addressed a real-world challenge. Our team conceptualized and developed a medical diagnostic system, a solution that is showcased in my portfolio. This project not only marked the culmination of my academic endeavors but also solidified my passion for applying technology to solve meaningful problems.",
+          "In my pursuit of higher education, my initial goal was to enter the aviation field and become a pilot. However, financial constraints prompted me to explore university options, including UWC, with the hope of finding bursaries as I pursued a path towards aviation. Unexpectedly, my journey took a different direction when I discovered computer science during my first year. Not only did I excel in the subject, but I also developed a profound passion for it. In the initial months of my first year, I immersed myself in Python and progressed to Java, focusing on object-oriented programming in the second semester. As I entered the second year, I further refined my skills in algorithms and data structures, delving into essential concepts that established a strong foundation. The intrigue deepened as we explored path algorithms, including Dijkstra's algorithm, accompanied by a comprehensive study of time and complexity. The trajectory of my academic journey reached a fascinating juncture in the third year, where I explored AI, computer networking, and operating systems. During this period, my fascination with Artificial Intelligence intensified, forging a deeper connection with the subject. The culmination of my academic endeavors occurred in the final year, second semester, where I participated in a capstone project addressing a real-world challenge. Our team conceptualized and developed a medical diagnostic system, a solution that is highlighted in my portfolio. This project not only marked the conclusion of my academic pursuits but also solidified my passion for leveraging technology to solve meaningful problems."],
+          "context_set": ""
+       },
+       {
+          "tag": "projects_worked_on",
+          "patterns": [
+             "Could you list some projects you've been involved in?",
+             "Share details about your past projects.",
+             "Describe the projects you've contributed to.",
+             "What are some examples of projects you've worked on?",
+             "Tell me about your previous project experiences.",
+             "Discuss the projects that you've been a part of.",
+             "Can you highlight a few projects from your portfolio?",
+             "Provide some insights into your past project work.",
+             "Elaborate on the projects you've undertaken.",
+             "Talk about the kind of projects you've been involved in."
+          ],
+          "responses": ["In my professional experience, I've had the opportunity to contribute to three significant projects, each addressing real-world problems. One notable project took place during my third year, second semester, where our team undertook a comprehensive e-commerce venture for a software engineering course. This project was a culmination of principles from software engineering and databases. The primary goal was to develop a fully functional shopping cart system that adhered to industry best practices. The requirements included seamless checkout processes and a robust backend database system. To elevate the project, I implemented an additional feature – an emailing script. This script automatically generated and sent an email to users immediately after a purchase, complete with a PDF attachment detailing their transaction history. Moreover, the system allowed administrators to mark orders as delivered, enhancing the overall order management process. On the user interface side, customers could leave reviews, complete with ratings, providing valuable feedback on the products they purchased. The project also featured a secure payment gateway, ensuring a smooth and secure checkout process for users"],
+          "context_set": ""
+       },
+       {
+          "tag": "programming_languages",
+          "patterns": [
+             "What programming languages are you proficient in?",
+             "List the programming languages you're comfortable using.",
+             "Share the coding languages you excel in.",
+             "Can you talk about the programming languages you prefer?",
+             "Discuss the languages you're most skilled at.",
+             "Which coding languages do you feel most at home with?",
+             "Elaborate on the programming languages you favor.",
+             "Tell me about the languages you are proficient in.",
+             "Highlight the coding languages you are comfortable with.",
+             "Discuss your proficiency in various programming languages."
+          ],
+          "responses": ["I possess proficiency in Java, Python, HTML, and CSS, with a growing knowledge of C that I am actively learning. My expertise in Java and Python extends to developing robust applications, while my skills in HTML and CSS enable me to create dynamic and visually appealing web content. Additionally, I am expanding my proficiency in C, demonstrating a commitment to continuous learning and enhancing my programming repertoire. These languages collectively contribute to my ability to tackle diverse projects and challenges in the realm of software development."],
+          "context_set": ""
+       },
+       {
+          "tag": "teamwork_approach",
+          "patterns": [
+             "Share your approach to teamwork in a professional setting.",
+             "Discuss your teamwork strategies.",
+             "How do you collaborate with your team members?",
+             "Can you talk about your team collaboration style?",
+             "Describe your approach to working in a team environment.",
+             "Share insights into your team-oriented work style.",
+             "What's your strategy for effective teamwork?",
+             "Discuss how you contribute to a team project.",
+             "How do you handle collaborative projects?",
+             "Talk about your experiences working collaboratively."
+          ],
+          "responses": ["In my experience within the realm of group work in computer sciences, I have predominantly assumed the role of a group leader. As a group leader, I prioritize creating an environment of mutual respect among team members. I establish and uphold specific rules that cultivate both professionalism and a free-flowing atmosphere conducive to productivity. To ensure optimal efficiency without overburdening team members, I maintain a delicate balance, discouraging laziness while fostering a positive working atmosphere. Clear communication is paramount, and I facilitate this through regular instructions and open dialogue within the team. Weekly group meetings serve as a platform for progress updates, where we collectively review our work and address any setbacks promptly. I believe in proactive communication of challenges to allow for effective problem-solving and, if necessary, the re-delegation of tasks to maintain consistent progress. Recognizing the diverse strengths and weaknesses within the team, I allocate tasks strategically, leveraging each member's skills. I intentionally assign challenging tasks to encourage skill development, ensuring that the work not only advances but also contributes to the continuous growth and knowledge enhancement of each team member. On a personal level, I make it a point to conduct thorough research and gain knowledge about every aspect of the project before assigning tasks. This not only ensures that I can provide guidance to team members but also allows me to contribute meaningfully. Additionally, I actively take on tasks within the project, engaging in hands-on work to stay connected with the intricacies of the project and lead by example."],
+          "context_set": ""
+       },
+       {
+          "tag": "challenges_faced",
+          "patterns": [
+             "Discuss some challenges you've encountered in past roles.",
+             "Can you share examples of professional challenges you've overcome?",
+             "Describe obstacles you've faced in your previous positions.",
+             "Talk about difficulties you've experienced in your career.",
+             "Share instances where you navigated through work challenges.",
+             "Discuss some of the tough situations you've handled at work.",
+             "Can you elaborate on challenges you've tackled in past roles?",
+             "Describe how you dealt with challenges in your career.",
+             "Talk about overcoming obstacles in your previous positions.",
+             "Share your experiences in overcoming professional challenges."
+          ],
+          "responses": ["One notable challenge I encountered was when tasked with developing a stock management system, a web application, for a delivery company. The urgency of the project demanded completion in less than a week, prompting me to carefully balance aesthetics and functionality.Given the time constraints, my strategy was to prioritize functionality, ensuring the core system was operational before delving into the user interface. This involved promptly completing the backend functionalities to track remaining stock after a driver logged their daily deliveries. The frontend, consequently, featured tables and links to various pages, ensuring a functional and navigable system. Clear communication with the client is vital, but with only one meeting and occasional unavailability, I had to make assumptions and adhere to industry best practices. One aspect that required clarification was the method for drivers to indicate their remaining stock. In the absence of clear guidance, I initially implemented a logic where the indicated stock was presumed to be the sold quantity. However, as the project progressed, I revisited and refined this logic based on subsequent client input. This experience underscored the importance of detailed client requirements within tight timeframes and the need for adaptability when facing uncertainties. It taught me to make informed decisions under pressure, adhere to best practices in the absence of clarity, and iterate on solutions as requirements evolve."],
+          "context_set": ""
+       },
+       {
+          "tag": "new_technology_learned",
+          "patterns": [
+             "What's the latest technology or tool you've picked up?",
+             "Discuss a recent technology or tool you've learned about.",
+             "Can you talk about your experience with a new tool or technology?",
+             "Share insights into the most recent tech or tool you've adopted.",
+             "Describe a technology you've recently added to your skill set.",
+             "Discuss a recent learning experience with a new tool.",
+             "Can you elaborate on the latest tech you've familiarized yourself with?",
+             "Talk about a recent addition to your technical skill set.",
+             "Share details about the most recent technology you've learned.",
+             "Describe your experience in picking up a new tool."
+          ],
+          "responses": ["I recently acquired proficiency in Django and gained hands-on experience in deploying websites using Render. Learning Django was a rewarding yet challenging experience, requiring me to grasp concepts on the go. The deployment of Django websites presented a notable challenge, particularly when I encountered an issue related to a database name discrepancy. It took nearly two weeks of troubleshooting to identify and rectify the mistake, emphasizing the importance of meticulous attention to detail in the development and deployment process."],
+          "context_set": ""
+       },
+       {
+          "tag": "communicating_to_non_technical",
+          "patterns": [
+             "Explain your approach to conveying technical ideas to non-tech individuals.",
+             "How do you make technical concepts understandable for non-technical people?",
+             "Share your strategy for communicating complex technical information to a non-technical audience.",
+             "Discuss how you bridge the gap between technical and non-technical stakeholders.",
+             "Can you talk about your communication methods for conveying technical details to non-techies?",
+             "Describe your approach to breaking down technical jargon for non-technical stakeholders.",
+             "How do you ensure clear communication of technical concepts to a non-technical audience?",
+             "Share insights into your techniques for making technical information accessible to non-technical individuals.",
+             "Discuss your methods for presenting technical ideas to a non-technical audience.",
+             "Can you elaborate on how you simplify technical information for non-tech stakeholders?"
+          ],
+          "responses": ["In fostering effective communication, I not only prioritize using plain language, encouraging questions, and incorporating interactive demonstrations but also emphasize a crucial step: asking individuals to explain concepts back to me. This approach serves as a valuable checkpoint to identify any potential misunderstandings. By inviting them to articulate their understanding, I gain insight into their comprehension level and can address any misconceptions promptly. This two-way communication ensures that the information is not only delivered clearly but also received and understood accurately, fostering a collaborative and inclusive environment for discussing technical concepts. In my experience communicating technical concepts, I prioritize clarity by using plain language, breaking down complex ideas into simpler terms that are easily understandable for individuals who may not have a technical background. Encouraging questions is a fundamental aspect of my communication strategy, creating an open and inclusive environment where individuals feel comfortable asking questions to enhance their understanding. Additionally, I find that interactive demonstrations play a pivotal role in bridging the gap between technical and non-technical audiences, as hands-on experiences provide a tangible way for individuals to grasp abstract concepts. Furthermore, I frequently employ analogies and metaphors, drawing parallels between technical details and everyday situations, making the information relatable and memorable."],
+          "context_set": ""
+       },
+       {
+          "tag": "crucial_communication",
+          "patterns": [
+             "Describe a scenario where effective communication played a vital role.",
+             "Share an instance where clear communication was pivotal.",
+             "Can you talk about a situation where effective communication was critical to success?",
+             "Discuss a specific example where communication made a significant impact.",
+             "Describe a time when your communication skills were crucial to the outcome.",
+             "Share a situation where effective communication was essential for success.",
+             "Can you elaborate on an experience where communication played a key role?",
+             "Discuss a specific incident where communication was crucial in achieving goals.",
+             "Describe a scenario where your communication skills were  put to the test.",
+             "Share an example where effective communication was instrumental in a positive outcome."
+          ],
+          "responses": ["In my leadership role during the early stages of the second semester of my final year, managing a group project, I observed that communication gaps were leading to inefficient problem-solving and occasional disagreements among team members. To address this, I implemented a structured communication approach. I instructed team members to direct their questions and suggestions to me directly. I would then provide prompt responses, either approving or disapproving suggestions as needed. For decisions affecting the entire group, I conducted regular meetings to ensure transparency and alignment. Additionally, I personally communicated with each team member every two days to monitor progress and address any concerns, fostering a more streamlined and effective collaboration within the group."],
+          "context_set": ""
+       },
+       {
+          "tag": "career_goals",
+          "patterns": [
+             "Share your long-term career aspirations.",
+             "Can you discuss your goals for the future of your career?",
+             "Describe your vision for your career in the long run.",
+             "Talk about where you see yourself in the long term professionally.",
+             "Share your thoughts on your career trajectory in the long run.",
+             "Can you elaborate on your long-term career objectives?",
+             "Discuss your aspirations for your career in the years to come.",
+             "Share insights into your long-term plans for your professional journey.",
+             "Talk about the goals you've set for your career in the long term.",
+             "Can you provide details about your career ambitions in the long run?"
+          ],
+          "responses": ["In the short term, my goal is to secure an internship that aligns with my passion for machine learning and AI within the field of computer science. I am eager to gain practical experience and contribute to real-world projects, deepening my understanding of these cutting-edge technologies. This internship will serve as a stepping stone, providing valuable insights and hands-on experience to further refine my skills. Looking into the far future, my aspirations extend to pursuing a master's degree with a specialization in AI/ML. I see this advanced education as a crucial step in gaining comprehensive knowledge and honing my expertise in the field. Ultimately, my long-term vision involves pursuing a Ph.D. and contributing to groundbreaking research in AI. I am driven by the desire to make significant advancements, pushing the boundaries of AI and leaving a lasting impact on the field through innovative and transformative research."],
+          "context_set": ""
+       },
+       {
+          "tag": "five_years_vision",
+          "patterns": [
+             "Can you talk about where you see yourself professionally in five years?",
+             "Describe your vision for your career five years from now.",
+             "Share your aspirations and goals for your professional life in the next five years.",
+             "Discuss where you envision yourself in your career half a decade from now.",
+             "Can you elaborate on your plans and expectations for your career in the next five years?",
+             "Talk about the milestones and achievements you hope to reach in the next five years.",
+             "Share insights into the role you see yourself playing in your field five years down the line.",
+             "Discuss your expectations and ambitions for your professional life in the coming years.",
+             "Can you provide details about the path you plan to take in your career over the next five years?",
+             "Describe where you hope to be in your professional journey five years from now."
+          ],
+          "responses": ["The evolution of my academic journey at UWC reflects a dynamic shift in my initial intentions. Upon acceptance, my focus was on pursuing software engineering, driven in part by the allure of its potential financial rewards. However, a significant turning point occurred towards the end of my second year when I learned that machine learning would be a focal point of my studies. This revelation prompted me to dedicate my holidays to preparing for the upcoming coursework. As I delved into machine learning, I was captivated by its potential and found myself increasingly drawn to the field. The allure of its capabilities and the intricate nature of the subject sparked a genuine interest. This newfound fascination only deepened as I progressed into my final year, particularly with the exploration of artificial intelligence. The exposure to AI further fueled my passion, solidifying my appreciation for the complexities and possibilities inherent in both AI and machine learning. This transformative journey not only reshaped my academic focus but also kindled a genuine love for these cutting-edge fields."],
+          "context_set": ""
+       },{
+        "tag": "career_in_computer_science",
+        "patterns": [
+           "What inspired you to pursue a career in computer science?",
+           "Can you share the reasons behind your decision to enter the field of computer science?",
+           "What led you to choose a career in computer science over other fields?",
+           "How did you develop an interest in pursuing computer science professionally?",
+           "What factors influenced your decision to build a career in computer science?",
+           "Could you elaborate on the motivations that drove you to opt for a career in computer science?",
+           "What made you decide on a path in computer science rather than another technical field?",
+           "Describe the background or experiences that led you to pursue computer science as a profession.",
+           "Share your journey in choosing computer science as your career path.",
+           "What factors or events shaped your decision to embark on a career in computer science?"
+        ],
+        "responses": ["I embarked on my journey in computer science without a predetermined choice. Initially interested in aviation during high school, my plans were redirected due to the military's limitations in recruiting new personnel amidst the COVID pandemic. In pursuit of alternative paths, I applied to study computer sciences at UWC among other options, hoping to eventually find a way back to aviation or explore software development/engineering.\nUpon receiving a prompt response from UWC, I enrolled and wrote my first program in Python. To my delight, I found the field both enjoyable and manageable. As I delved deeper into computer sciences, I fell in love with the challenges it presented. My passion deepened further when I learned about the opportunity to study machine learning in the third year. In anticipation, I began preparing and learning ahead of time, discovering a newfound love for machine learning. The intricacies of AI and machine learning, especially how agents/models behave in unseen environments and learn from experiences, have since captivated my interest. This journey has fueled my enthusiasm for the field, and I'm excited to bring this passion and dedication to any role I undertake."],
+        "context_set": ""
+     },
+     {
+        "tag": "cv_request",
+        "patterns": [
+           "May I have a look at your CV?",
+           "Could you share your CV with me?",
+           "I'd be interested in reviewing your CV. Can you provide it?",
+           "Is it possible for you to send me your CV?",
+           "Would you mind sharing your CV for my reference?",
+           "Can you grant me access to your CV?",
+           "I'm curious about your background. Can I see your CV?",
+           "Do you have your CV available? I'd like to take a look.",
+           "Could you forward your CV to me, please?",
+           "I'd appreciate it if you could show me your CV."
+        ],
+        "responses": ["Yes click on the CV button by the navbar"],
+        "context_set": ""
+     },
+     {
+        "tag": "educational_background",
+        "patterns": [
+           "What is your academic history?",
+           "Can you share details about your educational journey?",
+           "Discuss your background in terms of education.",
+           "Tell me about the schools you attended.",
+           "Share information about your educational experiences.",
+           "Can you elaborate on your academic background?",
+           "Talk about your education and learning experiences.",
+           "Provide insights into your educational history.",
+           "Describe your schooling and college experiences.",
+           "Share details about your educational qualifications."
+        ],
+        "responses": ["I have just recently completed my bachelors degree in computer science with an A in my computer science module, and an overall average of 85%. "],
+        "context_set": ""
+     },
+     {
+        "tag": "degrees_certifications",
+        "patterns": [
+           "Can you list your academic degrees and certifications?",
+           "Discuss the educational qualifications you possess.",
+           "Share details about your degrees and certifications.",
+           "What academic credentials do you currently hold?",
+           "Talk about the certifications and degrees you've earned.",
+           "Can you provide information on your educational achievements?",
+           "Describe the degrees and certifications on your resume.",
+           "Share insights into your academic and professional qualifications.",
+           "What educational credentials do you bring to the table?",
+           "Discuss your qualifications in terms of degrees and certifications."
+        ],
+        "responses": ["I recently achieved my Bachelor's degree in Computer Science with top grades, completing the program in record time. I have consistently maintained A's in my major modules since the beginning of my coursework. In addition to my academic achievements, I obtained my matric certificate in 2020. To further enhance my skills, I also earned certificates of completion in Java and Data Structures from CodeWithMosh, demonstrating my commitment to continuous learning and practical application in the field of computer science."],
+        "context_set": ""
+     },
+     {
+        "tag": "work_experience",
+        "patterns": [
+           "Can you talk about your professional journey in software development?",
+           "Discuss your background and experience in software engineering.",
+           "Share details about your career in coding and programming.",
+           "What is your work history in the field of software development?",
+           "Talk about your experiences and achievements in software development.",
+           "Can you provide insights into your work experience as a software developer?",
+           "Describe the roles you've held in software development.",
+           "Share information about your career path in software engineering.",
+           "Discuss your contributions and projects in the software development field.",
+           "Can you elaborate on your professional experiences in coding?"
+        ],
+        "responses": ["I have not yet had any employment history working for a company, i have only worked on various projects that show my skills."],
+        "context_set": ""
+     },
+     {
+        "tag": "projects_worked_on",
+        "patterns": [
+           "Can you list some of the projects you've been involved in?",
+           "Share details about your previous project engagements.",
+           "Describe the projects you've contributed to in the past.",
+           "What are some examples of projects you've worked on before?",
+           "Talk about your experiences with different projects.",
+           "Can you highlight a few projects from your portfolio?",
+           "Discuss the projects that you've been a part of in your career.",
+           "Provide insights into your past project work.",
+           "Elaborate on the types of projects you've undertaken.",
+           "Talk about the kind of projects you've been involved in previously."
+        ],
+        "responses": ["As of December 2023, my professional journey has been marked by active involvement in four impactful projects, each showcasing a distinct set of skills and problem-solving abilities. The first project centered around developing an e-commerce website, where I applied fundamental software engineering and database principles to create a seamless user experience. Following that, I delved into the healthcare sector with the creation of a medical diagnosis system, reflecting my commitment to leveraging technology for significant and practical solutions. In the realm of addressing real-world challenges, I contributed to a stock management web app, highlighting my ability to develop efficient and practical solutions. Currently, I'm concluding the development of my latest project—an innovative chatbot. This project involves the intricate process of training the chatbot to respond effectively using natural language processing techniques. These projects, all of which are detailed on my portfolio, collectively demonstrate my hands-on approach to problem-solving, versatility in tackling diverse domains, and a commitment to staying at the forefront of technological advancements. I am eager to discuss the unique challenges and learnings from each project in more detail during the interview."],
+        "context_set": ""
+     },
+     {
+        "tag": "programming_languages",
+        "patterns": [
+           "What programming languages do you feel most proficient in?",
+           "Can you discuss the coding languages you are most comfortable using?",
+           "Share your expertise in terms of programming languages.",
+           "What languages do you excel in when it comes to coding?",
+           "Discuss the programming languages you prefer and use frequently.",
+           "Can you talk about the coding languages you are most skilled at?",
+           "Describe your comfort level with different programming languages.",
+           "Share insights into the languages you favor for coding.",
+           "What are the coding languages you feel most at home with?",
+           "Discuss your proficiency in various programming languages."
+        ],
+        "responses": ["I am most comfortable with HTML, CSS, Python, and Java. These coding languages form the foundation of my skill set, and I feel at home navigating and creating solutions using them. HTML and CSS enable me to structure and style web content effectively, while Python and Java provide me with versatile tools for scripting, backend development, and building robust applications. These languages collectively empower me to approach a wide range of projects with confidence and efficiency."],
+        "context_set": ""
+     },
+     {
+        "tag": "python_coding",
+        "patterns": [
+           "Are you familiar with Python coding?",
+           "Can you code proficiently in Python?",
+           "Have you worked with Python programming language?",
+           "Do you have experience writing code in Python?",
+           "Are you comfortable using Python for coding tasks?",
+           "Can you demonstrate your Python coding skills?",
+           "Have you written Python code in a professional setting?",
+           "Are you adept at Python programming?",
+           "Can you showcase your proficiency in Python coding?",
+           "Do you use Python for your coding projects?"
+        ],
+        "responses": ["I am highly proficient and comfortable using Python for coding tasks. In fact, all the projects showcased in my portfolio, including the portfolio itself, were meticulously crafted with Python as the backend language. Python's versatility and robust capabilities have allowed me to develop efficient and scalable solutions across various domains. From web applications to specialized projects, Python has been the cornerstone of my coding endeavors. I am well-versed in leveraging its extensive libraries and frameworks to deliver impactful and high-quality results. If you have any specific inquiries about my Python-centric projects or would like to delve deeper into my experience with the language, I'd be delighted to discuss it further during the interview."],
+        "context_set": ""
+     },
+     {
+        "tag": "teamwork_approach",
+        "patterns": [
+           "Share your approach to collaboration within a team.",
+           "Can you discuss your teamwork strategies and philosophy?",
+           "How do you contribute to a team environment?",
+           "What's your strategy for effective teamwork?",
+           "Discuss your team collaboration style.",
+           "Can you talk about your experiences working collaboratively?",
+           "Describe your approach to working with a team.",
+           "Share insights into your team-oriented work style.",
+           "What role do you typically play in a collaborative setting?",
+           "Discuss how you handle collaborative projects."
+        ],
+        "responses": ["In a collaborative group setting, my approach to allocated tasks involves a proactive and results-oriented methodology. I prioritize the swift completion of my assigned responsibilities to ensure timely progress within the project. Following the implementation, I actively seek feedback from the designated authority. This step is crucial for me to gauge the quality of my work and ascertain that it aligns with the project's objectives. Should there be any discrepancies between the implemented task and the requirements, I am quick to initiate a thorough analysis to identify areas for improvement. This commitment to refining my work ensures that the final output not only meets but exceeds the specified expectations. Additionally, in instances where the initial task requirements are unclear, I am proactive in seeking clarification to guarantee a precise and accurate execution. This methodology reflects my dedication to delivering high-quality results in a collaborative environment and my commitment to continuous improvement. I am open to discussing specific instances or elaborating further on this approach during the interview."],
+        "context_set": ""
+     },
+     {
+        "tag": "collaboration_experience",
+        "patterns": [
+           "Can you share a positive teamwork experience you've had?",
+           "Discuss a collaboration success story from your career.",
+           "Share details about a project where teamwork was particularly successful.",
+           "What's an example of a time when collaboration led to positive outcomes?",
+           "Talk about a situation where effective collaboration was crucial.",
+           "Can you elaborate on a successful collaborative project you've been a part of?",
+           "Describe a scenario where teamwork resulted in a positive impact.",
+           "Share insights into a project where collaborative efforts were particularly fruitful.",
+           "Discuss a specific instance where teamwork contributed to success.",
+           "Can you provide details about a collaborative experience that stands out in your career?"
+        ],
+        "responses": ["One noteworthy positive teamwork experience I led involved serving as the group leader for two significant projects: CBD-Urbanwear and MDSS, both highlighted in my portfolio. While the first project posed its challenges, serving as a valuable learning experience, it laid the foundation for the success of the subsequent MDSS project. Despite initial hurdles, the MDSS project emerged as an astounding success, earning recognition as the best idea in its category at the time. In my role as a group leader, I navigated through the complexities of project management, drawing from the lessons learned in the initial project. The MDSS project, despite its inherent challenges, was executed with excellence, resulting in it being ranked among the top projects of its time with an impressive overall score of 83%. This positive teamwork experience not only showcased my ability to adapt and learn from challenges but also demonstrated effective leadership in steering a project to remarkable success. I am eager to discuss further details or share insights gained from this experience during the interview."],
+        "context_set": ""
+     },{
+      "tag": "goodbye",
+      "patterns": [
+         "cya",
+         "see you",
+         "bye bye",
+         "See you later",
+         "Goodbye",
+         "I am Leaving",
+         "Bye",
+         "Have a Good day",
+         "talk to you later",
+         "ttyl",
+         "i got to go",
+         "gtg"
+      ],
+      "responses": [
+         "Sad to see you go :(",
+         "Talk to you later",
+         "Goodbye!",
+         "Come back soon"
+      ],
+      "context_set": ""
+   },
+   {
+     "tag": "creator",
+     "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+     ],
+     "responses": [
+        "Meshach aka Harmony"
+     ],
+     "context_set": ""
+  },
+  {
+    "tag": "name",
+    "patterns": [
+       "name",
+       "your name",
+       "do you have a name",
+       "what are you called",
+       "what is your name",
+       "what should I call you",
+       "whats your name?",
+       "what are you",
+       "who are you",
+       "who is this",
+       "what am i chatting to",
+       "who am i taking to",
+       "what are you"
+    ],
+    "responses": [
+       "You can call me meshach.",
+       "I'm Meshach",
+       "I am a Chatbot.",
+       "I am your helper"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "number",
+    "patterns": [
+       "more info",
+       "contact info",
+       "how to contact college",
+       "college telephone number",
+       "college number",
+       "What is your contact no",
+       "Contact number?",
+       "how to call you",
+       "College phone no?",
+       "how can i contact you",
+       "Can i get your phone number",
+       "how can i call you",
+       "phone number",
+       "phone no",
+       "call"
+    ],
+    "responses": [
+       "You can contact at: 0647441060"
+    ],
+    "context_set": ""
+  },{
+    "tag": "random",
+    "patterns": [
+       "I love you",
+       "Will you marry me",
+       "Do you love me"
+    ],
+    "responses": [
+       "I am not program for this, please ask appropriate query"
+    ],
+    "context_set": ""
+   },{
+     "tag": "swear",
+     "patterns": [
+        "fuck",
+        "bitch",
+        "shut up",
+        "hell",
+        "stupid",
+        "idiot",
+        "dumb ass",
+        "asshole",
+        "fucker"
+     ],
+     "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+     ],
+     "context_set": ""
+  },
+  {
+    "tag": "task",
+    "patterns": [
+       "what can you do",
+       "what are the thing you can do",
+       "things you can do",
+       "what can u do for me",
+       "how u can help me",
+       "why i should use you"
+    ],
+    "responses": [
+       "I am knowledgeable and can provide answers to low-intermediate level questions regarding Meshach. Additionally, I have insights into interview questions that Meshach may anticipate and am prepared to respond to those commonly asked in interviews.",
+       "You can ask me questions regarding Meshach, and i will try to answer them",
+       "I possess a solid understanding and can address questions about Meshach at a level ranging from basic to intermediate. Furthermore, I have valuable insights into anticipated interview questions and am well-prepared to respond to commonly asked inquiries during interviews.",
+       "I have a good grasp of Meshach-related topics and can provide thoughtful responses to questions at a low to intermediate difficulty level. Additionally, I've taken the initiative to anticipate potential interview questions that Meshach might pose, ensuring that I am ready with well-considered answers for commonly asked queries in interviews."
+    ],
+    "context_set": ""
+ },{
+   "tag": "tell_me_about_yourself",
+   "patterns": [
+      "Introduce yourself",
+      "Can you share a bit about who you are?",
+      "Provide an introduction to yourself.",
+      "Give me some background about who you are.",
+      "Could you tell me a little about yourself?",
+      "Share some information about your background and experiences.",
+      "Introduce yourself and your professional journey.",
+      "Can you give me a brief overview of who you are?",
+      "Provide some insights into your personal and professional life.",
+      "Tell me a bit about your background and career.",
+      "Give me a summary of who you are as a person and as a professional."
+   ],
+   "responses": ["I am Ratshikombo Sedzani Meshach, currently pursuing an Honours degree in Computer Sciences at UWC. I successfully completed my Bachelor's degree in computer sciences in 2023 and officially graduated in March 2024. I am a goal-driven individual, committed to working hard and overcoming challenges to achieve my objectives. My academic journey has equipped me with strong programming skills, particularly in languages like Java and Python, and a solid understanding of data structures. Additionally, I have hands-on experience, including the successful deployment of Django websites. My passion for AI and machine learning is reflected in certificates earned from platforms like CodeWithMosh. I am enthusiastic about applying my skills and knowledge in a dynamic work environment. "],
+   "context_set": ""
+}, {
+   "tag": "choose_data_structure",
+   "patterns": [
+      "How do you decide on the appropriate data structure for a given problem?",
+      "When faced with a coding challenge, how do you determine the best data structure to use?",
+      "Can you elaborate on your thought process when selecting a data structure for a specific task?",
+      "What factors influence your choice of data structure in programming tasks?",
+      "How do you approach the selection of data structures to optimize code efficiency?",
+      "When solving a problem, what criteria guide your decision on the most suitable data structure?",
+      "Could you explain your strategy for matching the problem requirements with the right data structure?",
+      "What considerations come into play when you're deciding on a data structure for a coding problem?",
+      "How do you assess and choose the appropriate data structure for a programming problem?",
+      "Can you share your methodology for evaluating and selecting data structures in your coding practice?"
+   ],
+   "responses": ["In deciding on the appropriate data structure for a given problem, my methodology involves a comprehensive analysis tailored to the unique characteristics of the challenge. I start by gaining a deep understanding of the problem's requirements, including input specifications, expected outputs, and any constraints in play. Identifying the key operations required is the next crucial step. Whether it's search, insert, delete, or update, understanding these operations guides the selection process. Evaluating the time and space complexity of potential data structures becomes paramount, factoring in considerations such as retrieval speed, insertion efficiency, and memory usage. I carefully assess the algorithms that will be applied to solve the problem, as different algorithms may necessitate specific data structure requirements. While exploring built-in data structures provided by the programming language, I leverage their inherent functionalities, such as arrays, lists, dictionaries, sets, trees, or graphs. Balancing trade-offs is essential. I consider the trade-off between time and space complexity, optimizing for the most critical operations while maintaining a reasonable balance. Adaptability to the dynamic nature of the problem is another key consideration. If the data size varies, I choose a structure that can adapt efficiently. In making this decision, I prioritize readability and maintainability, ensuring that the chosen data structure aligns with the overall clarity and structure of the code. Seeking feedback from peers or mentors, if feasible, is part of the process, allowing for refinement based on collective insights and experience. This systematic approach ensures that the selected data structure is not only well-suited to the problem's requirements but also contributes to an efficient and effective solution."],
+   "context_set": ""
+},
+{
+   "tag": "debugging_troubleshooting",
+   "patterns": [
+      "What is your approach to identifying and resolving bugs in your code?",
+      "When encountering an issue in your code, how do you go about debugging and troubleshooting?",
+      "Can you describe your debugging process when faced with unexpected errors in your code?",
+      "How do you systematically troubleshoot and fix errors in your programming projects?",
+      "When your code isn't working as expected, what steps do you take to diagnose and fix the problem?",
+      "Could you share your strategy for efficient debugging and resolving issues in your code?",
+      "What tools and techniques do you use for debugging and troubleshooting in your development workflow?",
+      "Can you walk me through a specific example of a challenging bug you encountered and how you resolved it?",
+      "How do you ensure thorough testing and debugging before deploying your code?",
+      "What practices do you follow to minimize debugging time and enhance code reliability?"
+   ],
+   "responses": ["In approaching the identification and resolution of bugs in my code, I adopt a systematic strategy tailored to the nature of the error at hand. For syntax errors, I rely on reputable resources such as Stack Overflow, and I consult the most recent documentation from sources like GeeksforGeeks and W3Schools to ensure adherence to best practices and language specifications. In the case of runtime errors, I leverage unique print statements strategically placed in the code. These serve as diagnostic tools, allowing me to pinpoint the exact location where the error originates. This approach helps me gain insights into the program's execution flow and isolate problematic areas efficiently. For logical errors, I employ a combination of techniques. I often resort to writing out on paper the expected behavior of the program, step by step. If necessary, I perform manual calculations to validate assumptions and compare them with the code's output. This meticulous process helps me uncover discrepancies and logical flaws. Recognizing the value of collaboration, I'm not hesitant to seek assistance from others. While they may not directly spot my mistakes, their fresh perspective often proves invaluable in providing alternative approaches or ideas that contribute to the problem-solving process. In essence, my bug resolution approach is a blend of leveraging online resources, strategic debugging through print statements, hands-on analysis of expected outcomes, and collaborative problem-solving. This ensures a comprehensive and effective strategy to identify and address various types of coding issues."],
+   "context_set": ""
+},
+{
+   "tag": "problem_solving_approach",
+   "patterns": [
+      "Describe your overall strategy when faced with a programming problem.",
+      "Can you walk me through your problem-solving process in a coding scenario?",
+      "When tackling a complex problem, what steps do you take to devise a solution?",
+      "What methodologies do you follow to break down and solve programming challenges effectively?",
+      "How do you organize your thoughts and plan your approach when presented with a coding problem?",
+      "Can you elaborate on the systematic steps you take to solve a programming problem from start to finish?",
+      "What role does pseudocode or planning play in your problem-solving approach?",
+      "How do you balance creativity and structure when developing solutions to coding challenges?",
+      "Describe a specific instance where your problem-solving approach led to a successful outcome.",
+      "Share insights into your adaptive problem-solving strategies for different types of programming challenges."
+   ],
+   "responses": ["When faced with a programming problem, my approach involves a structured and methodical process to ensure effective problem-solving. The first crucial step is taking the time to thoroughly understand the problem. This includes gaining clarity on the requirements, constraints, and expected outcomes. I find that investing time in a clear problem analysis significantly contributes to a successful solution. Once I have a solid understanding of the problem, I proceed to devise a strategy for its resolution. For larger problems, I often employ a 'Divide and Conquer' approach, breaking down the problem into smaller, more manageable components. Alternatively, for simpler problems, I outline a set of logical instructions to guide the solution process. Deciding on the appropriate data structure is the next key consideration. Depending on the steps outlined in the solution strategy, I choose data structures that align with the requirements and optimize the efficiency of the solution. This decision is crucial to the overall effectiveness of the implementation. With a well-defined plan in place, I move on to the implementation phase. During this stage, I maintain a meticulous coding style, emphasizing readability and adherence to best practices. Once the initial implementation is complete, I conduct thorough testing, ensuring that the solution effectively addresses the problem and is free from bugs. Iterative refinement is a key aspect of my approach. After confirming the correctness of the solution, I revisit the code to explore opportunities for optimization. This may involve reducing complexity, shortening the code length, and enhancing overall readability. I believe that a well-optimized and concise codebase contributes not only to efficiency but also to maintainability and collaboration. In summary, my problem-solving methodology involves a comprehensive understanding of the problem, strategic planning, thoughtful selection of data structures, meticulous implementation, rigorous testing, and continuous refinement for optimization. This approach ensures not only a working solution but also one that is efficient, maintainable, and adheres to best coding practices "],
+   "context_set": ""
+},
+{
+   "tag": "favorite_project_experience",
+   "patterns": [
+      "Can you talk about a programming project that you particularly enjoyed working on?",
+      "Share details about a coding project that stands out as your favorite, and what made it special for you?",
+      "What is the programming project you've found most rewarding, and what did you take away from the experience?",
+      "Describe the characteristics of your favorite programming project and the lessons you learned from it.",
+      "Can you elaborate on a coding endeavor that you found personally fulfilling, and what insights did it provide?",
+      "Discuss your favorite programming project and the skills or knowledge you gained during its development.",
+      "How did your favorite programming project contribute to your growth and development as a coder?",
+      "Share specific aspects of your favorite coding project and the impact it had on your programming journey.",
+      "What challenges did you encounter in your favorite programming project, and how did you overcome them?",
+      "Can you reflect on the lessons learned from your favorite coding project and their application in subsequent work?"
+   ],
+   "responses": ["I found the development of the Medical Diagnostic System (MDSS) in my portfolio to be an incredibly enjoyable and enriching experience. This project, which seamlessly integrated Database Management, Software Engineering, and Machine Learning, presented a unique set of challenges and tasks that truly resonated with my passion for computer science. What made this group project particularly rewarding was the active and engaged participation of team members. Each member brought enthusiasm to the tasks, embracing the challenges posed by the project. The collaborative environment and shared dedication made the development process not only smooth but also enjoyable. What set the MDSS project apart was its real-world relevance and complexity. Unlike other projects, this one didn't have ready-made solutions or platforms to replicate. It was a distinctive experience where we, as students, had to tackle challenges head-on, solving problems that mirrored those encountered in real-world scenarios. The integration of Database Management, Software Engineering principles, and the application of Machine Learning techniques added layers of complexity and depth to the project. It provided me with a firsthand understanding of how these domains converge in practical applications. What I appreciated most was the absence of an existing template or platform to emulate. This absence forced our team to think critically, problem-solve creatively, and innovate to meet the unique requirements of the project. It was an invaluable experience that allowed us to apply theoretical knowledge to a tangible and meaningful solution. In conclusion, the development of the MDSS stands out as a highlight in my academic journey. It not only deepened my understanding of diverse areas within computer science but also exposed me to the intricacies of teamwork and problem-solving in a real-world context. Overall, this project was a testament to the rewarding nature of hands-on, challenging, and collaborative experiences in the field of computer science."],
+   "context_set": ""
+},
+{
+   "tag": "time_complexity_explanation",
+   "patterns": [
+      "How would you define and explain the concept of time complexity in algorithm analysis?",
+      "When discussing time complexity, what key elements do you focus on to convey the concept clearly?",
+      "Can you provide a straightforward explanation of time complexity in the context of algorithms?",
+      "Explain the idea of time complexity in algorithms to someone with a non-technical background.",
+      "How do you approach teaching the concept of time complexity to someone unfamiliar with programming?",
+      "Break down the concept of time complexity and its significance in algorithmic analysis.",
+      "Can you give an example that illustrates the importance of considering time complexity in algorithm design?",
+      "Describe the relationship between time complexity and the efficiency of algorithmic solutions.",
+      "When explaining time complexity, what analogies or metaphors do you find helpful for understanding?",
+      "Share insights into your approach for making the concept of time complexity accessible and understandable."
+   ],
+   "responses": ["Time complexity serves as a fundamental concept in algorithm analysis, offering insights into how the running time of an algorithm scales concerning the size of its input. It essentially answers the pivotal question: 'How does the efficiency of an algorithm change as the input size increases?' Expressed using Big O notation, time complexity provides a concise representation of the upper bound on an algorithm's running time. For instance, if an algorithm has a time complexity of O(n), it signifies a linear relationship between the running time and the input size (n). In practical terms, common time complexities include O(1) denoting constant time, O(log n) representing logarithmic time, O(n) indicating linear time, and O(n^2) for quadratic time, among others. Understanding time complexity is crucial when selecting algorithms, as it guides decisions toward those with lower time complexities for enhanced efficiency, particularly with larger datasets. It's important to note that time complexity provides an abstract measure, not the actual time an algorithm takes to execute. Instead, it aids in comparing and selecting algorithms based on their efficiency and scalability. In conclusion, time complexity is a vital tool in algorithmic decision-making, offering a standardized way to evaluate and choose algorithms that align with performance requirements and handle varying input sizes effectively."],
+   "context_set": ""
+},
+{
+   "tag": "recent_developments_in_CS",
+   "patterns": [
+      "In your opinion, what recent advancements have had the most impact on the field of computer science?",
+      "Can you discuss the trends and developments in computer science that you find most noteworthy?",
+      "Share your perspective on the significant breakthroughs or changes in the field of computer science.",
+      "How do you stay informed about the latest developments and emerging technologies in computer science?",
+      "Reflect on recent innovations in computer science and their potential implications for the industry.",
+      "Discuss the areas of computer science where you see the most exciting and impactful advancements.",
+      "Can you highlight recent research or technologies that you believe will shape the future of computer science?",
+      "Provide insights into the role of recent developments in computer science in shaping your career goals.",
+      "Share your thoughts on how recent advancements in computer science have influenced your approach to coding and problem-solving.",
+      "Discuss specific technologies or methodologies that you consider game-changers in the current landscape of computer science."
+   ],
+   "responses": ["The recent advancements in Artificial Intelligence (AI) have significantly impacted the field of computer science. Notably, the development of Generative Adversarial Networks (GANs) is fascinating, showcasing their power in applications like face and voice recognition, as well as chatbots. AI tools such as ChatGPT have revolutionized coding, offering valuable assistance in debugging, syntax, and logic errors, expediting project completion and enabling expansion. These advancements have not only streamlined development but also enhanced the learning process, providing diverse explanations and positively influencing the computer science landscape."],
+   "context_set": ""
+},
+{
+   "tag": "disagreement_with_team_member",
+   "patterns": [
+      "Can you describe a time when you had a disagreement with a team member, and how was it resolved?",
+      "Share an example of a situation where you and a team member had differing opinions, and how you navigated through it.",
+      "Discuss a specific instance where you faced a disagreement within your team and the steps you took to address it.",
+      "How do you approach conflicts within a team, and can you provide an example of a successful resolution?",
+      "Reflect on a disagreement with a team member and the communication or problem-solving techniques you employed.",
+      "Can you share insights into your approach for handling interpersonal conflicts within a team environment?",
+      "Describe the strategies you use to maintain positive team dynamics in the face of differing opinions.",
+      "Provide details about a time when a disagreement within the team had a positive impact on the project or the team's dynamics.",
+      "Discuss the role of effective communication in resolving disagreements within a collaborative setting.",
+      "Share your perspective on the importance of constructive conflict resolution within a team and its impact on overall productivity."
+   ],
+   "responses": ["There was a notable instance in a group project where a team member claimed proficiency in certain technologies but consistently faced challenges in delivering assigned tasks. This situation escalated to the point where it jeopardized the cohesion of the entire group. As a team leader, my responsibility was not only to address the immediate issue but also to find a constructive resolution that benefited both the individual and the team. To tackle the problem, I initiated a discussion with the group members, advocating for a collaborative and supportive approach rather than resorting to exclusion. I emphasized the importance of understanding each team member's strengths and weaknesses, fostering an environment where individuals feel comfortable acknowledging and addressing their limitations. Simultaneously, I engaged in a candid conversation with the team member in question. I sought to understand the root cause of the challenges he faced and worked collaboratively to find a solution. It became apparent that a reallocation of tasks and a reassessment of responsibilities were necessary. In the interest of maintaining the group's overall progress, I decided to redistribute the workload, assigning the team member tasks that aligned better with his strengths and providing additional support where needed. This adjustment not only salvaged the current project but also preserved the individual's dignity and potential for growth. Learning from this experience, I implemented proactive measures in subsequent projects. Regular check-ins on each team member's progress became a standard practice. This approach ensured that issues were identified and addressed promptly, fostering a more cohesive and successful collaboration. Ultimately, the lessons learned from this disagreement contributed to a more robust and supportive team dynamic in subsequent projects, notably in the successful development of the Medical Diagnostic System."],
+   "context_set": ""
+},
+{
+   "tag": "learning_new_technology",
+   "patterns": [
+      "Can you share an experience where you had to rapidly learn a new programming language or technology?",
+      "Describe a specific instance where you quickly acquired proficiency in a new programming language or technology.",
+      "Walk me through the steps you took to learn a new programming language or technology in a short time frame.",
+      "How do you approach the challenge of learning new programming languages or technologies efficiently?",
+      "Share insights into your strategies for accelerating the learning process when adopting a new programming language or technology.",
+      "Can you provide an example of a successful experience in rapidly gaining proficiency in a new programming language or technology?",
+      "Discuss the resources and methods you find most effective for quickly grasping the fundamentals of a new programming language or technology.",
+      "Reflect on the impact of your ability to quickly learn new technologies on your overall skill set and adaptability as a programmer.",
+      "Share a situation where your ability to swiftly learn a new programming language or technology contributed to the success of a project.",
+      "Discuss the importance of continuous learning and adaptability in the ever-evolving field of computer science."
+   ],
+   "responses": ["In the second semester, I faced the challenge of developing an e-commerce application without explicit guidance on the choice of language or technology. In collaboration with my group, we navigated this ambiguity by opting for Python, despite it being two full years since I last worked with the language. The next crucial decision was selecting a technology for both frontend and backend development, and given our collective lack of experience in this specific domain, we settled on Django, a web framework within the Python ecosystem. This decision meant not only revisiting Python but also acquiring proficiency in HTML and CSS, both essential for the development of a comprehensive website. Despite the initial learning curve, the projects—CBD Urban Wear and MDSS—proved to be highly successful, earning commendable scores of 80+. The experience was a testament to the adaptability and collaborative spirit of the team. It showcased our ability to make informed decisions in the face of uncertainty, learning and implementing new technologies efficiently. Moreover, the positive outcomes reflected our commitment to delivering quality solutions even when stepping into unfamiliar territory. These projects, prominently displayed in my portfolio, stand as evidence of my capacity to thrive in dynamic situations, leverage diverse technologies, and deliver successful outcomes in collaboration with a team."],
+   "context_set": ""
+},
+{
+   "tag": "current_projects_personal_work",
+   "patterns": [
+      "Can you provide details about the projects you are currently working on or have recently completed?",
+      "Share information about your ongoing projects and any recent personal coding endeavors.",
+      "Discuss the coding projects that currently occupy your time, or those you have recently finished.",
+      "Can you elaborate on the scope and goals of the projects you are actively involved in or have recently finished?",
+      "Describe the technical aspects and challenges of the projects you are currently working on or have recently completed.",
+      "Share insights into your motivation and inspiration behind the projects you are currently undertaking or have recently finished.",
+      "Discuss the technologies or programming languages you are using in your current projects or recent personal endeavors.",
+      "Can you highlight the impact of the projects you are currently involved in or have recently completed on your skills and knowledge?",
+      "Provide details about the outcomes and achievements of your recent coding projects or personal initiatives.",
+      "Reflect on the lessons learned and experiences gained from your current projects or those you have recently completed."
+   ],
+   "responses": ["As of December 2023, I've been focused on enhancing my professional portfolio, showcasing projects ranging from e-commerce applications to medical diagnostic systems. Concurrently, I'm actively developing a chatbot, integrating advanced technologies to provide interactive and innovative user experiences. These initiatives reflect my commitment to ongoing learning and application of cutting-edge solutions in the field of computer science."],
+   "context_set": ""
+},{
+   "tag": "current_projects",
+   "patterns": [
+      "Can you share details about the coding projects currently on your plate or any recent personal coding endeavors?",
+      "Discuss the programming initiatives that currently occupy your time, or those you have recently accomplished.",
+      "What coding projects are you actively involved in right now, or what personal coding projects have you wrapped up lately?",
+      "Can you elaborate on the nature and goals of the coding projects you're presently tackling or have recently brought to completion?",
+      "Describe the technical aspects and challenges of the projects you're currently handling or have recently finished.",
+      "Share insights into your motivation and inspiration behind the coding projects you're currently working on or have recently completed.",
+      "Discuss the technologies or programming languages you're utilizing in your ongoing projects or recent personal initiatives.",
+      "Can you highlight the impact of the projects you're currently engaged in or have recently completed on your skills and knowledge?",
+      "Provide details about the outcomes and achievements of your recent coding projects or personal coding initiatives.",
+      "Reflect on the lessons learned and experiences gained from your current coding projects or those you have recently completed."
+   ],
+   "responses": ["As of December 2023, I am actively learning the C language to broaden my language proficiency and further diversify my skill set."],
+   "context_set": ""
+},
+{
+   "tag": "task_prioritization",
+   "patterns": [
+      "Can you describe your method for prioritizing tasks when juggling multiple projects simultaneously?",
+      "What criteria do you use to determine the priority of tasks when managing several projects concurrently?",
+      "Explain your strategies for effectively managing and prioritizing tasks when working on multiple projects at the same time.",
+      "How do you strike a balance and allocate time efficiently when dealing with various tasks across multiple projects?",
+      "Can you share insights into your decision-making process when prioritizing tasks within a multitasking environment?",
+      "Discuss any tools or methodologies you employ to organize and prioritize tasks when handling multiple projects simultaneously.",
+      "What considerations come into play when determining the urgency and importance of tasks in a multitasking scenario?",
+      "Can you provide examples of situations where your task prioritization skills positively impacted the outcomes of your projects?",
+      "Share your perspective on the challenges and benefits of managing multiple tasks concurrently and how you navigate through them.",
+      "Reflect on any experiences where your ability to prioritize tasks effectively contributed to the overall success of your projects."
+   ],
+   "responses": ["When managing multiple projects, I prioritize tasks by addressing the most urgent ones first to ensure timely delivery. I adhere to set timeframes for each project, allocating sufficient time to the urgent ones while maintaining steady progress on others. This approach prevents any undue burden and allows for efficient time management across the various projects. Striking a balance between urgency and importance ensures that each project receives the attention it requires without compromising on quality or timelines."],
+   "context_set": ""
+}
+    ]
+ }
+ 
